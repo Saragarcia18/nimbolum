@@ -1,0 +1,120 @@
+.integrante-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 55%;
+}
+
+.btn-conocenos {
+    border-radius: 80px !important;
+}
+
+.descripcion-conocenos {
+    text-align: justify;
+}
+
+iframe {
+    width: 80%;
+    height: 350px;
+}
+
+.btn-juega {
+    border-radius: 50% / 80% 80% 0 0;
+}
+
+.footer-text p {
+    text-align: justify;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+      max-width: 100px;
+  }
+  
+  .copyright-area{
+    background: #202020;
+    padding: 25px 0;
+  }
+  .copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+  }
+  .copyright-text p a{
+    color: #ff5e14;
+  }
+
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+  }
+  .subscribe-form input {
+    width: 100%;
+    padding: 12px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+  }
+  .subscribe-form button {
+      position: absolute;
+      right: 0;
+      background: #ff5e14;
+      padding: 13px 20px;
+      border: 1px solid #ff5e14;
+      top: 0;
+  }
+  
+
+  .footer-widget-heading h3 {
+    
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 40px;
+      position: relative;
+    }
+    .footer-widget-heading h3::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: -15px;
+      height: 2px;
+      width: 50px;
+      background: #ff5e14;
+    }
+    .footer-widget ul li {
+      display: inline-block;
+      width: 50%;
+      margin-bottom: 12px;
+    }
+    .footer-widget ul li a:hover{
+      color: #ff5e14;
+    }
+    .footer-widget ul li a {
+      color: #878787;
+      text-transform: capitalize;
+    }
+    
+    .main {
+        background-image: url("");
+    }
+
+    .inicio-text {
+        height: 90vh;
+    }
+
+    #comunidad {
+        height: 80vh;
+    }
+
+    .btn-juega {
+
+    }
+
+    #nosotros {
+        /* background-image: url("");
+        max-width: ; */
+    }
