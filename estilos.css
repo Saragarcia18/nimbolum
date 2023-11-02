@@ -1,120 +1,259 @@
-.integrante-foto {
-    width: 150px;
-    height: 150px;
-    border-radius: 55%;
-}
-
-.btn-conocenos {
-    border-radius: 80px !important;
-}
-
-.descripcion-conocenos {
-    text-align: justify;
-}
-
-iframe {
-    width: 80%;
-    height: 350px;
-}
-
-.btn-juega {
-    border-radius: 50% / 80% 80% 0 0;
-}
-
-.footer-text p {
-    text-align: justify;
-    font-size: 14px;
-    color: #7e7e7e;
-    line-height: 28px;
-}
-
-.footer-logo {
-    margin-bottom: 30px;
-  }
-  .footer-logo img {
-      max-width: 100px;
-  }
-  
-  .copyright-area{
-    background: #202020;
-    padding: 25px 0;
-  }
-  .copyright-text p {
+* {
     margin: 0;
-    font-size: 14px;
-    color: #878787;
-  }
-  .copyright-text p a{
-    color: #ff5e14;
-  }
+    padding: 0;
+    box-sizing: border-box;
+    font-family: porsharichela;
+}
 
-.subscribe-form {
+#box-content{
+    opacity: 0;
+    transition-duration: 1s;
+    /* transition-delay: 1s; */
+}
+
+#box-content{
+    height: 650px;
+    text-align: center;
+}
+
+.img-ns{
+    margin-top: 100px;
+    transition-duration:1.2s ;
+    opacity: 0;
+}
+
+.conoce-juego{
+    opacity: 0;
+    transition-duration: 1s;
+}
+
+@font-face{
+    font-family: porsharichela;
+    src: url("porsharichela.otf")
+}
+.color{
+    background-image: url(img/IMAGEN-HEADER2.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+ }
+.logo{
+    transition: 0.6s;
+    width: 150px;
+}
+.logo:hover {
+    transform: scale(1.2);   
+}
+.bi{
+    color: #ffffff;
+}
+.bien{
+    margin-top: 140px;
+    color: white;
+    font-family:porsharichela ;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color:0 ;
     position: relative;
-    overflow: hidden;
-  }
-  .subscribe-form input {
+    z-index: 20;
+}
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-list li a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+.mi{
+    margin-top: 20px;
+}
+.abrir-menu,
+.cerrar-menu {
+    display: none;
+}
+
+
+ .btn{
+    margin: auto;
+ }
+ #box-content h1{
+    font-size: 90px;
+    transition: 0.2s;
+}
+#btv{
+    color: rgba(0, 0, 0, .0);
+    background-color:none !important;
+}
+#box-content:hover{
+    transform: scale(1.3); 
+}
+.s1{
+    background-image: url(img/SECCION\ 2.png);
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 100px;  
+    color: #ffffff;  
+}
+.s2{
+    background-image: url(img/SECCION-JUEGO.png);
+    background-position: bottom;
+    background-size: cover;
+}
+.s3{
+    background-image: url(img/COMUNIDAD.png);
+    background-position: top;
+    background-size: cover;
+}
+
+.s4{
+    background-color: #1c1c1c;
+}
+
+.btn{
+    font-family: porsharichela !important;
+    background-color: #c4a78a !important;
+    border-radius: 40px !important;
+}
+.h{
+    color:#c4a78a !important;
+}
+.se2 p{
     width: 100%;
-    padding: 12px 28px;
-    background: #2E2E2E;
-    border: 1px solid #2E2E2E;
-    color: #fff;
+   margin: 60px auto;
+    font-size: 59px;
+    text-align: justify;
+   }
+.se2{
+    width: 100%;
+    padding:        50px 100px 6px 100px ;
+    align-items: center;
+    color: white;  
+    text-align: center;
+ }
+ video{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+
+.se1{
+    width: 100%;
+    padding: 60px 100px 280px 100px ;
+    align-items: center;
+}
+.se3{
+    width: 100%;
+    padding:    0px 100px 180px 100px ;
+    align-items: center;
+   
+}
+.se3 p{
+    width: 100%;
+   margin: 60px auto;
+    font-size: 59px;
+    text-align: justify;
+    color: #ffffff;
+   }
+
+   .bg-personal{
+    width: 100%;
+    height: 100%;
+    background-image:url(img/discord.svg) ;
+    background-repeat: no-repeat;
   }
-  .subscribe-form button {
-      position: absolute;
-      right: 0;
-      background: #ff5e14;
-      padding: 13px 20px;
-      border: 1px solid #ff5e14;
-      top: 0;
+
+  .discd{
+    justify-content: center;
+    background-position: center;
   }
-  
 
-  .footer-widget-heading h3 {
-    
-      font-size: 20px;
-      font-weight: 600;
-      margin-bottom: 40px;
-      position: relative;
-    }
-    .footer-widget-heading h3::before {
-      content: "";
-      position: absolute;
-      left: 0;
-      bottom: -15px;
-      height: 2px;
-      width: 50px;
-      background: #ff5e14;
-    }
-    .footer-widget ul li {
-      display: inline-block;
-      width: 50%;
-      margin-bottom: 12px;
-    }
-    .footer-widget ul li a:hover{
-      color: #ff5e14;
-    }
-    .footer-widget ul li a {
-      color: #878787;
-      text-transform: capitalize;
+
+
+
+
+ 
+ 
+ 
+
+
+
+
+
+
+@media screen and (max-width: 770px) {
+    .abrir-menu,
+    .cerrar-menu {
+        display: block;
+        border: 0;
+        font-size: 1.25rem;
+        background-color: transparent;
+        cursor: pointer;
     }
     
-    .main {
-        background-image: url("");
+    .se1{
+        padding:    60px 10px 280px 10px ;
+    }
+    .se2{
+        padding:    60px 10px 10px 10px ;
+    }
+    .se3{
+        padding:    30px 10px 280px 10px ;
+    }
+    
+    .abrir-menu {
+        color: #1c1c1c;
     }
 
-    .inicio-text {
-        height: 90vh;
+    .cerrar-menu {
+        color: #ececec;
     }
 
-    #comunidad {
-        height: 80vh;
+    .cerrar-menu:hover {
+        color: #24DFDE;
+    }
+    
+      
+      
+   
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #051923;
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
     }
 
-    .btn-juega {
-
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+        z-index: 30;
+        position: fixed;
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
     }
 
-    #nosotros {
-        /* background-image: url("");
-        max-width: ; */
+    .nav-list li a {
+        color: #ffffffec;
     }
+   
+     
+}
