@@ -17,17 +17,17 @@ const ConoceNos = document.querySelector('#conoce-nos');
 const Juego = document.querySelectorAll('.conoce-juego');
 
 // Evento Seccion Uno
-
+ 
 window.addEventListener('scroll', function () {
     console.log(window.scrollY);
-    let pos = window.scrollY
-    if (pos <= 20) {
+    let pot = window.scrollY
+    if (pot <= 0) {
         boxContent.style.opacity = 1;
         boxContent.style.marginTop = '0px';
        
-    } else if (pos >= 100) {
+    } else if (pot >= 90) {
         boxContent.style.opacity = 0;
-        boxContent.style.transitionDelay = '1.3s';
+        boxContent.style.transitionDelay = '1.2s';
     }
 })
 
@@ -93,14 +93,14 @@ window.addEventListener('scroll', function(){
         if (pos >= 500) {
             Juego.style.opacity = 1;
             Juego.style.marginTop = '0px';
-            // imgCelular.style.marginTop = '0px';
-            // imgCelular.style.opacity = 1;
+            // Juego.style.marginTop = '0px';
+            // Juego.style.opacity = 1;
             // boxContent.style.opacity = 1;
             // boxContent.style.marginTop = '0px';
         } else if (pos >= 10) {
             boxContent.style.opacity = 0;
-            imgCelular.style.opacity = 0;
-            imgCelular.style.marginTop = '100px';
+            Juego.style.opacity = 0;
+            Juego.style.marginTop = '100px';
         }
     })
 

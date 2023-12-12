@@ -1,18 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
     font-family: porsharichela;
 }
 
 #box-content{
-    opacity: 0;
+    opacity: 1;
     transition-duration: 1s;
     /* transition-delay: 1s; */
 }
 
 #box-content{
-    height: 650px;
+    height: 690px;
     text-align: center;
 }
 
@@ -55,11 +57,10 @@
 header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 2rem;
     background-color:0 ;
     position: relative;
-    z-index: 20;
+    
 }
 .nav-list {
     list-style-type: none;
@@ -85,8 +86,8 @@ header {
     margin: auto;
  }
  #box-content h1{
-    font-size: 90px;
-    transition: 0.2s;
+    font-size: 120px;
+    transition: 0.1s;
 }
 #btv{
     color: rgba(0, 0, 0, .0);
@@ -101,12 +102,21 @@ header {
     background-size: cover;
     padding-top: 100px;  
     color: #ffffff;  
+    background-repeat: no-repeat;
 }
 .s2{
     background-image: url(img/SECCION-JUEGO.png);
-    background-position: bottom;
     background-size: cover;
+   
+    
 }
+video{
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    
+}
+
 .s3{
     background-image: url(img/COMUNIDAD.png);
     background-position: top;
@@ -119,12 +129,18 @@ header {
 
 .btn{
     font-family: porsharichela !important;
-    background-color: #c4a78a !important;
+    background-color: rgb(196, 167, 138) !important;
     border-radius: 40px !important;
+    
 }
 .h{
     color:#c4a78a !important;
 }
+
+.se2{
+    z-index: 1;
+}
+
 .se2 p{
     width: 100%;
    margin: 60px auto;
@@ -138,11 +154,7 @@ header {
     color: white;  
     text-align: center;
  }
- video{
-    border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 200px;
-}
+ 
 
 .se1{
     width: 100%;
@@ -202,7 +214,7 @@ header {
         padding:    60px 10px 280px 10px ;
     }
     .se2{
-        padding:    60px 10px 10px 10px ;
+        padding:    20px 40px 30px 60px ;
     }
     .se3{
         padding:    30px 10px 280px 10px ;
@@ -217,7 +229,7 @@ header {
     }
 
     .cerrar-menu:hover {
-        color: #24DFDE;
+        color: #ffffff;
     }
     
       
@@ -234,7 +246,7 @@ header {
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: #051923;
+        background-color: #1e1a2c;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
     }
